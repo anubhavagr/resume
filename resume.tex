@@ -130,9 +130,9 @@
     
     \resumeEducationHeading
       {Delhi Public School}
-      {Durg, Bhilai}
-      {Class 10;   \textbf{CGPA: 9.8/10.00}}{2016 \textbf{--} 2017}
-      {Class 12;   \textbf{Percent: 81.4\%}}{2018 \textbf{--} 2019}
+      {Durg}
+      {Class 10:   \textbf{CGPA: 9.8/10.00}}{2016 \textbf{--} 2017}
+      {Class 12:   \textbf{Percent: 81.4\%}}{2018 \textbf{--} 2019}
      
   \resumeSubHeadingListEnd
 %----------- WORK EXPERIENCE -----------
@@ -145,8 +145,8 @@
       {Summer Intern}{May \textbf{--} June 2022}
         \resumeItemListStart
 	    \resumeItem{Supervised by \textbf{Dr. Shailesh Khapre}}
-            \resumeItem{Worked on "Real-time Smoking and Spitting detection"}
-	    \resumeItem{Techniques applied - Deep learning, Data Augmentation, CNN, Transfer learning, Mixed Precision}
+	    \resumeItem{Worked on \textbf{Real-time Smoking and Spitting detection}}
+	    \resumeItem{Techniques applied - Deep learning, Data Augmentation, CNN, Transfer learning, Fine-tuning, Mixed Precision}
 	    \resumeItem{Tech stack - Python, Fastai, Tensorflow, OpenCV, Matplotlib}
         \resumeItemListEnd
     
@@ -158,86 +158,71 @@
     \resumeSubHeadingListStart
       
       \resumeProjectHeading
-        {\textbf{Axolotl} $|$ Haskell $|$ \emph{\href{https://github.com/axolotl-lang/axolotl}{\color{blue}GitHub}}}{}
+	{\textbf{Panorama Image Stitching} $|$ Python $|$ \emph{\href{https://github.com/anubhavagr/Panorama-image-stitching}{\color{blue}GitHub}}}{}
           \resumeItemListStart
-            \resumeItem{a lisp-like statically typed programming language written in Haskell}
-            \resumeItem{includes support for recursion and variadic arguments}
-            \resumeItem{full-fledged analyser that can infer basic types and check type correctness}
-            \resumeItem{includes a native Haskell based Evaluator}
-            \resumeItem{is able to transpile to Javascript}
-            \resumeItem{work on transpilation to LLVM Assembly ongoing}
-            \resumeItem{provides AST access for easy implementation of new transpilation backends}
-          \resumeItemListEnd
+            \resumeItem{a panorama like image creator built on Python}
+            \resumeItem{stitches multiple images into a single image}
+            \resumeItem{independent from number of input images}
+	    \resumeItem{intelligently compensates for difference in lighting exposure, contrast errors}
+            \resumeItem{no significant loss of image content and resolution}
+            \resumeItem{can take any and all input images with some overlapping area}
+            \resumeItem{Tech stack - Python, OpenCV, Numpy}
+	\resumeItemListEnd
+
+
       \resumeProjectHeading
-        {\textbf{Kumi} $|$ TypeScript $|$ \emph{\href{https://github.com/uditkarode/kumi}{\color{blue}GitHub}}}{}
+        {\textbf{Neural Style Transfer} $|$ Python $|$ \emph{\href{https://github.com/anubhavagr/neural-style-transfer}{\color{blue}GitHub}}}{}
           \resumeItemListStart
-            \resumeItem{a parser combinator library written in TypeScript}
-            \resumeItem{allows parsing plaintext into TS native structures}
-            \resumeItem{allows creation and usage of parser combinators}
-          \resumeItemListEnd
-      \resumeProjectHeading
-        {\textbf{Able} $|$ Kotlin $|$ \emph{\href{https://github.com/uditkarode/AbleMusicPlayer}{\color{blue}GitHub}}}{}
-          \resumeItemListStart
-            \resumeItem{an open-source and free alternative to Spotify written in Kotlin}
-            \resumeItem{a music player that allows searching for songs and then playing or downloading them}
-            \resumeItem{uses Youtube Music as the data source allowing for a vast library}
-            \resumeItem{is able to auto-fetch the album art for a particular song}
-            \resumeItem{is able to create custom playlists or import Spotify playlist}
-          \resumeItemListEnd
-      \resumeProjectHeading
-        {\textbf{Minegram} $|$ GoLang $|$ \emph{\href{https://github.com/uditkarode/Minegram}{\color{blue}GitHub}}}{}
-          \resumeItemListStart
-            \resumeItem{a two-way bridge written in GoLang that works via stdout capture}
-            \resumeItem{relays Minecraft messages to a Telegram group and vice-versa}
-            \resumeItem{includes several administrative commands for ease-of-life}
-            \resumeItem{includes a hand-crafted authentication system for auth via Telegram}
-            \resumeItem{adds colors to server logs for better visibility}
-          \resumeItemListEnd
-      \resumeProjectHeading
-        {\textbf{Diamond} $|$ Haskell $|$ \emph{\href{https://github.com/uditkarode/diamond}{\color{blue}GitHub}}}{}
-          \resumeItemListStart
-            \resumeItem{a container-less alternative to Docker written in Haskell}
-            \resumeItem{sandboxes applications to a degree via separate Linux users and filesystem permissions}
-            \resumeItem{application working directories are mounted from a disk image to hard limit size}
-            \resumeItem{integrates with systemd and auto-creates service files for easier management}
-            \resumeItem{includes a transaction system via a State-like monad that auto reverts previous steps on failure}
-          \resumeItemListEnd
-      \resumeProjectHeading
-        {\textbf{DryType} $|$ TypeScript $|$ \emph{\href{https://github.com/uditkarode/drytype}{\color{blue}GitHub}}}{}
-          \resumeItemListStart
-            \resumeItem{a runtime type-validation library written in TypeScript}
-            \resumeItem{able to perform unions and intersections on runtime types}
-            \resumeItem{able to create sensible human-readable errors in case something goes wrong}
-            \resumeItem{includes both Node and Deno versions}
-            \resumeItem{includes a variety of unit tests for every included DryType}
+            \resumeItem{Implementation of paper titled "A Neural Algorithm of Artistic Style" by Gatys et al.(2015)}
+            \resumeItem{Takes two images as input i.e Content image and Style image}
+	    \resumeItem{Generates new image by blending contents of content image in style of style image}
+	    \resumeItem{Tech stack - Python, Pytorch, OpenCV, Matplotlib, Numpy, Pillow}
           \resumeItemListEnd
       
     \resumeSubHeadingListEnd
+
+
+
+
+
+
+
+
 %----------- SKILLS -----------
-\section{Skills}
+\section{Technical Skills}
   \vspace{1pt}
   \resumeSubHeadingListStart
     \small{\item{
-        \textbf{Programming:}{ TypeScript, Haskell, Kotlin, Rust, Dart, Solidity } \\ \vspace{2pt}
+        \textbf{Programming Languages:}{ Python, C, MATLAB, C++} \\ \vspace{2pt}
         
-        \textbf{HackTheBox:}{ 8 user owns and 4 system owns around 4 years ago}
-        \textbf{Sysadmin-like:}{
-           Hosting various services like \href{https://git.udit.krd}{\color{blue}git.udit.krd},
-           \href{https://batbin.me}{\color{blue}batbin.me},
-           \href{https://flix.udit.krd}{\color{blue}flix.udit.krd},
-           \href{https://blog.realogs.in}{\color{blue}blog.realogs.in},
-           \href{https://mcsrvstat.us/server/mc.realogs.in}{\color{blue}mc.realogs.in}
-           (Minecraft server) with custom automated cloud backups on my VPSs over the previous few years.
-        }
-        \textbf{DevOps-like:}{
-          Created a release pipeline on \href{https://drone.io}{\color{blue}drone.io} for \href{https://github.com/uditkarode/AbleMusicPlayer}{\color{blue}Able}
-          that builds a release APK on my Docker container image, signs it with the release keystore, and sends it to
-          \href{https://t.me/ableci}{\color{blue}@ableci} on Telegram.
-          Also created build pipelines for various projects on my Github profile via Github Actions in a similar way.
-        }
-        \textbf{Languages:}{ Marathi (Native), Hindi (Native), English (Professional), Japanese (Conversational)}
-    }}
+	\textbf{Libraries(Python):}{ Fastai, Pytorch, Tensorflow, Numpy, Pandas, Scikit-learn, OpenCV, Matplotlib}
+		} 
+    	}
   \resumeSubHeadingListEnd
 %-------------------------------------------
+
+
+
+
+
+
+%----------- EXTRA-CURRICULARS -----------
+\section{EXTRA-CURRICULARS}
+  \vspace{1pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Programming Languages:}{ Python, C, MATLAB, C++} \\ \vspace{2pt}
+
+        \textbf{Libraries(Python):}{ Fastai, Pytorch, Tensorflow, Numpy, Pandas, Scikit-learn, OpenCV, Matplotlib}
+                }
+
+
+        \textbf{Languages:}{ Marathi (Native), Hindi (Native), English (Professional), Japanese (Conversational)}
+        }
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+
 \end{document}
 
