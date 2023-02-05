@@ -115,7 +115,7 @@
     $|$
     \faGithub \hspace{.5pt} \href{https://github.com/anubhavagr}{\color{blue}GitHub}
     $|$
-    \faMapMarker \hspace{.5pt} Bhilai, Chhattisgarh
+    \faMapMarker \hspace{.5pt} Bangalore, India
 \end{center}
 %----------- EDUCATION -----------
 \section{Education}
@@ -124,34 +124,40 @@
     \resumeSubheading
       {Bhilai Institute of Technology}
       {Durg}
-      %{Bachelor of Technology - Computer Science}{2019 \textbf{--} 2023}
-      {\textbf{CGPA: 9.0/10} so far}{2019 \textbf{--} 2023 (expected)}
+      {Bachelor of Technology - \textbf{Computer Science}}{2019 \textbf{--} 2023}
+      %{\textbf{CGPA: 9.0/10} so far}{2019 \textbf{--} 2023 (expected)}
  
     \vspace{6pt}
     
-    \resumeEducationHeading
-      {Delhi Public School Durg}
-      {}
-      {Class 10:   \textbf{CGPA: 9.8/10}}{ 2017}
-      {Class 12:   \textbf{Percent: 81.4\%}}{ 2019}
-     
   \resumeSubHeadingListEnd
 %----------- WORK EXPERIENCE -----------
 \section{Experience}
   \vspace{3pt}
   \resumeSubHeadingListStart
-    
+
+
     \resumeSubheading
-      {Enord}{Remote}
-      {\textbf{Computer Vision Intern}}{Sep 2022\textbf{--} Present}
-	 \resumeItemListStart
-	    \resumeItem{Building AI powered autonomous drones}
-            \resumeItem{Working on Multi-processing File Balancer, Object Detection, Depth Estimation}
+      {Imaging Innovation Technologies Pvt. Ltd.}{}
+      {\textbf{Image Quality Engineer Intern}}{Nov 2022\textbf{--} present}
+         \resumeItemListStart
+            \resumeItem{Working on Image Stitching for fluoroscopy images}
+	    \resumeItem{Built an algorithm for enhancing images of Digital Subtraction Angiography(DSA)}
         \resumeItemListEnd
 
 
+
     \resumeSubheading
-      {International Institute of Information Technology, Naya Raipur}{On-site}
+      {Enord}{}
+      {\textbf{Computer Vision Intern}}{Sep 2022\textbf{--} Dec 2022}
+	 \resumeItemListStart
+            \resumeItem{Worked on Multi-processing file balancers, Image Stitching, Video summary image generation}
+	    \resumeItem{Researched on Real-time Object dimension measurement, Foreign Object Debris}
+        \resumeItemListEnd
+
+
+
+    \resumeSubheading
+      {International Institute of Information Technology, Naya Raipur}{}
       {\textbf{Summer Intern}}{May \textbf{--} June 2022}
         \resumeItemListStart
 	    \resumeItem{Supervised by \textbf{Dr. Shailesh Khapre}}
@@ -168,27 +174,39 @@
     
     \resumeSubHeadingListStart
       
-      
+          \resumeProjectHeading
+              {\textbf{Universal Image Steganalysis} $|$ Python $|$ \emph{\href{}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Built a neural network model for detection of stego images}
+	    \resumeItem{\textbf{Fine-tuned} some standard dnn architectures like Resnet,VGG etc using \textbf{fp8} and \textbf{MixedPrecision} training}
+	    \resumeItem{Incorporated \textbf{Ensemble Learning}}
+            \resumeItem{\textbf{Tech stack} - Python, Pytorch, Fastai\\}
+        \resumeItemListEnd
+
+     \resumeProjectHeading
+	     {\textbf{Time-Series Forecasting of NDVI for GUJRAT} $|$ Python $|$ \emph{\href{}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Trained Gradient Boosting models for time-series forecasting}
+            \resumeItem{Used NDVI data from AWIFS, MODIS and SENTINEL satellites}
+            \resumeItem{\textbf{Tech stack} - Python, XGBoost, CatBoost, LightGBM\\}
+        \resumeItemListEnd
+
+
+
       \resumeProjectHeading
         {\textbf{Legal judgement text summarizer} $|$ Python $|$ \emph{\href{https://github.com/anubhavagr/vidhaan/tree/master/ai_models/judgement_summary}{\color{blue}GitHub}}}{}
           \resumeItemListStart
 	  \resumeItem{Implemented huggingface summarization pipeline}
-	    \resumeItem{Fine-tuned version of PEGASUS model by Google}
-            \resumeItem{Takes original text as string input}
-	    \resumeItem{Divides input string into chunks if input is large}
-            \resumeItem{Generates a summary for the given input string}
-	    \resumeItem{Customizable length of output(summary generated)}
-            \resumeItem{\textbf{Tech stack} - Python, Pytorch, HuggingFace\\}
+	    \resumeItem{Customizable length summary generated of given input}
+            \resumeItem{\textbf{Tech stack} - Python, Pytorch, HuggingFace, Colab\\}
           \resumeItemListEnd
 	
 	
 	\resumeProjectHeading
 	{\textbf{Condio - a lossless to lossy audio converter} $|$ Python $|$ \emph{\href{https://github.com/anubhavagr/Condio}{\color{blue}GitHub}}}{}
           \resumeItemListStart
-            \resumeItem{Parallized version of audio format conversion}
-            \resumeItem{Can use all cores of the machine}
-            \resumeItem{Supports audio formats like:- WAV, FLAC, M4A}
-	    \resumeItem{Adjustable bitrate}
+            \resumeItem{Parallized version of audio format conversion capable of using all CPU cores available}
+            \resumeItem{Supports audio formats like:- WAV, FLAC, M4A with variable bitrate}
 	    \resumeItem{\textbf{Tech stack} - Python, Ffmpeg, Glob, Multiprocessing\\}
           \resumeItemListEnd
 
@@ -197,27 +215,18 @@
           \resumeItemListStart
 	    \resumeItem{Dataset - \emph{CMATERdb3.1.2} containing images of bengali alphabets}
 	    \resumeItem{Trained using \textbf{\emph{Transfer learning}} technique}
-	    \resumeItem{Fine-tuned a convolutional neural network(resnet34 arch)}
+	    \resumeItem{Fine-tuned a convolutional neural network(\textbf{resnet34} arch)}
             \resumeItem{Accuracy on unseen test set - 98.96\%}
             \resumeItem{\textbf{Tech stack} - Python, Fastai, OpenCV\\}
           \resumeItemListEnd
 
-      \resumeProjectHeading
-	{\textbf{Panorama Image Stitching} $|$ Python $|$ \emph{\href{https://github.com/anubhavagr/Panorama-image-stitching}{\color{blue}GitHub}}}{}
-          \resumeItemListStart
-	    \resumeItem{A panorama like image creator built using opencv stitcher module}
-            \resumeItem{Stitches multiple images into a single image}
-            \resumeItem{Independent from number of input images}
-	    \resumeItem{Intelligently compensates for difference in lighting exposure, contrast errors}
-            \resumeItem{No significant loss of image content and resolution}
-            \resumeItem{Can take any and all input images with some overlapping area}
-            \resumeItem{\textbf{Tech stack} - Python, OpenCV, Numpy\\}
-	\resumeItemListEnd
 
+      
       \resumeProjectHeading
         {\textbf{Neural Style Transfer} $|$ Python $|$ \emph{\href{https://github.com/anubhavagr/neural-style-transfer}{\color{blue}GitHub}}}{}
           \resumeItemListStart
 	    \resumeItem{Implementation of paper titled "\textbf{A Neural Algorithm of Artistic Style}" by Gatys et al.(2015)}
+	    \resumeItem{Built using VGG-19 architecture}
             \resumeItem{Takes two images as input i.e Content image and Style image}
 	    \resumeItem{Generates new image by blending contents of content image in style of style image}
 	    \resumeItem{\textbf{Tech stack} - Python, Pytorch, OpenCV, Matplotlib, Numpy, Pillow\\}
@@ -255,7 +264,7 @@
   \vspace{1pt}
   \resumeSubHeadingListStart
     \small{\item{
-		    \textbf{Finalist}{ Smart India Hackathon 2022 (Software edition)}\\ \vspace{2pt}
+		    \textbf{1st Runner-up}{ Smart India Hackathon 2022}\\ \vspace{2pt}
 		    \textbf{Winner}{ Brainstation India Ideathon 2021 } \\ \vspace{2pt}
 		    \textbf{Machine Learning Lead}{ at Google developer scholars club (GDSC BITD) 2021-22} 
                 }
